@@ -9,7 +9,7 @@
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
+                "${workspaceFolder}/bin/LM21.3/${fileBasenameNoExtension}"
             ],
             "options": {
                 "cwd": "${fileDirname}"
