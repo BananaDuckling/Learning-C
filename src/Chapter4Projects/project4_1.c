@@ -6,9 +6,9 @@ its digits reversed. A session with the program should have the following appear
 int main(void)
 {
     printf("Enter a two-digit number: ");
-    int firstDigit, secondDigit;
-    scanf("%1d%1d", &firstDigit, &secondDigit);
+    int digit;
+    scanf("%2d", &digit);
 
-    printf("The reversal is: %d%d\n", secondDigit, firstDigit);
+    printf("The reversal is: %d%d\n", digit % 10, digit / 10);
     return 0;
 }
