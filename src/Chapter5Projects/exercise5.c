@@ -44,5 +44,28 @@ int main(void)
     i = 1; j = 1; k = 1;
     printf("(3d)%d ", ++i || ++j && ++k);
     printf("%d %d %d\n", i, j, k);
+
+    //Exercise 5
+    int n;
+    n = 0;
+    if (n >= 1 <= 10)
+    {
+        printf("(5)n is between 1 and 10\n");
+    }
+    //Exercise 6
+    n = 5;
+    if ( n == 1 - 10)
+    { 
+	    printf("n is between 1 and 10 \n");
+    }
+    printf("%d\n", n == 1 - 10);
+
+    //Exercise 7
+    i = 17;
+    printf("%d\n", i >= 0 ? i : -i);
+    i = -17;
+    printf("%d\n", i >= 0 ? i : -i);
+
+    //Exercise 8
     return 0;
 }
