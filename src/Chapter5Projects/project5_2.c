@@ -22,6 +22,6 @@ int main(void)
             hour %= 12;    
         }
     }
-    printf("Equivalent 12-hour time: %d:%.2d %2s\n", hour, minute, suffix);
+printf("Equivalent 12-hour time: %d:%.2d %2s\n", hour, minute, suffix);
     return 0;
 }
